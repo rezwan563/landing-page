@@ -23,9 +23,9 @@ a{
 
 .header-first{
     display: flex;
-    margin-left: 200px;
     justify-content: space-between;
-    margin-right: 200px;
+    margin: 0 300px;
+    
 
 }
 
@@ -50,7 +50,7 @@ a{
     margin-right: 200px; */
     display: flex;
     justify-content: space-between;
-    margin: 100px 200px;
+    margin: 100px 300px;
    
 
 }
@@ -74,6 +74,7 @@ img{
     color: #e5e7eb;
     font-size: 18px;
     margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .awesome-button{
@@ -81,10 +82,13 @@ img{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+
 }
 
 button{
     padding: 5px 20px;
     border-radius: 8px;
     font-weight: bolder;
+    border-width: 0;
 }
