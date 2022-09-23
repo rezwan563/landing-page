@@ -5,9 +5,10 @@ body{
 }
 
 .first-section{
-    height: 400px;
+    height: 500px;
     background-color: #1f2937;
     color: #f9faf8;
+
 }
 
 button{
@@ -24,11 +25,12 @@ a{
     display: flex;
     margin-left: 200px;
     justify-content: space-between;
+    margin-right: 200px;
 
 }
 
 .header-links{
-    margin-right: 180px;
+    /* margin-right: 200px; */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -38,4 +40,51 @@ a{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    margin-top: 14px;
+}
+
+.header-second{
+    /* margin-left: 200px;
+    display: flex;
+    margin-top: 70px;
+    margin-right: 200px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+   
+
+}
+
+img{
+    background-color: #999696;
+    width: 600px;
+    height: 218px;
+    
+}
+
+.website-main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-block-start: -12px;
+    margin-block-end: 0;
+}
+
+.website-sub{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-block-start: 0px;
+}
+
+.awesome-button{
+    /* margin-right: 123px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: bolder;
 }
