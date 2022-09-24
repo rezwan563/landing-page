@@ -92,3 +92,11 @@ button{
     font-weight: bolder;
     border-width: 0;
 }
+
+.square-one{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 10px;
+}
