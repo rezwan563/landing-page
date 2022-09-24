@@ -98,23 +98,34 @@ button{
 }
 
 .square-one{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+    width: 120px;
+    height: 140px;
+    /* background-color: rgb(111, 255, 0); */
     border-style: solid;
-    border-width: 10px;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
 .random-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px;
+
 }
 
 .all-box{
     display: flex;
-    gap: 60px;
+    gap: 70px;
     /* justify-content: center; */
+}
+
+.second-information{
+    margin-block-end: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .box-one,
@@ -129,5 +140,7 @@ button{
 
 .box-description{
     text-align: center;
+    color: #1f2937;
     
 }
+
