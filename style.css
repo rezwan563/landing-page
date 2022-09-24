@@ -94,7 +94,7 @@ button{
 }
 
 .second-section{
-    height: 500px;
+    height: 450px;
 }
 
 .square-one{
@@ -111,13 +111,13 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    
 
 }
 
 .all-box{
     display: flex;
-    gap: 70px;
+    gap: 100px;
     /* justify-content: center; */
 }
 
@@ -141,6 +141,12 @@ button{
 .box-description{
     text-align: center;
     color: #1f2937;
+    
+}
+
+.third-section{
+    height: 450px;
+    background-color: #E5E7EB;
     
 }
 
