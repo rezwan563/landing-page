@@ -154,7 +154,7 @@ button{
 }
 
 .quote{
-    width: 500px;
+    width: 812px;
     display: flex;
     flex-direction: column;
     /* align-items: center;
@@ -164,9 +164,15 @@ button{
 
 .quote-speech{
     text-align: left;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
 
 .quoted-person{
     text-align: right;
     margin-block-start: 0px;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: large;
 }
