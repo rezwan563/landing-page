@@ -147,6 +147,26 @@ button{
 .third-section{
     height: 450px;
     background-color: #E5E7EB;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.quote{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin: auto;
+}
+
+.quote-speech{
+    text-align: left;
+}
+
+.quoted-person{
+    text-align: right;
+    margin-block-start: 0px;
+}
