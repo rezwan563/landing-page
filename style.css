@@ -179,5 +179,37 @@ button{
 
 .fourth-section{
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.call-action{
+    height: 130px;
+    width: 900px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text{
+    color: #F9FAF8;
+}
+
+.call-text{
+    font-size: large;
+    font-weight: bolder;
+    margin-block-end: 0px;
+}
+
+.call-subtext{
+    margin-block-start: 0%;
+}
+
+.action-up{
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
 }
