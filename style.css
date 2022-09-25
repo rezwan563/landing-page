@@ -215,6 +215,14 @@ button{
 }
 
 .footer{
-    /* height: 80px;
-    background-color: #1f2937; */
+    height: 100px;
+    background-color: #1f2937; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright{
+    color:#F9FAF8;
 }
